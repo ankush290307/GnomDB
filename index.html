@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenomDB - Revolutionizing Genomics</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #1e1e2f, #2c3e50);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+        }
+        .hero h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 4rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .btn-custom {
+            background: #ff4b2b;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            background: #ff6a5b;
+        }
+        .features {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .features h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: white;
+            margin: 15px;
+            padding: 20px;
+        }
+        .footer {
+            background: #121212;
+            color: #bbb;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">GenomDB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Welcome to GenomDB</h1>
+    <p>Revolutionizing Species-Specific Genomic Databases for the Future.</p>
+    <a href="#features" class="btn btn-custom">Discover More</a>
+</div>
+
+<!-- Features Section -->
+<div id="features" class="features">
+    <div class="container">
+        <h2>Key Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <h5>Scalable Framework</h5>
+                    <p>Designed to handle genomes of all sizes with unparalleled performance.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5>Interactive Visualization</h5>
+                    <p>Leverage tools like JBrowse2 and Synviso for rich genomic insights.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5>User-Friendly Interface</h5>
+                    <p>Accessible to researchers of all backgrounds, ensuring seamless usability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<div class="footer">
+    <p>&copy; 2025 GenomDB. All rights reserved. | <a href="#" style="color: #ff4b2b; text-decoration: none;">Privacy Policy</a></p>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
