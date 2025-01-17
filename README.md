@@ -1,22 +1,31 @@
-# ![GenomDB Logo](GenomDB.png)
+# ![GnomDB Logo](GenomDB.png)
 
-# GenomDB
+# GnomDB
 
-**GenomDB** is a powerful and comprehensive platform for building, managing, and analyzing species-specific genomic databases. By integrating essential bioinformatics tools like **ViroBLAST**, **SynViso**, and **JBrowse2**, GenomDB provides researchers with an all-in-one solution for efficient data management, analysis, and interactive visualization.
+**GnomDB** is a powerful and comprehensive platform for building, managing, and analyzing species-specific genomic databases. By integrating essential bioinformatics tools like **ViroBLAST**, **SynViso**, and **JBrowse2**, GnomDB provides researchers with an all-in-one solution for efficient data management, analysis, and interactive visualization.
 
-![GenomDB Screenshot](images/genomdb-screenshot.png)
+![GnomDB Screenshot](images/genomdb-screenshot.png)
 
 ## Table of Contents
 
 - [Features](#features)
 - [Integrated Tools](#integrated-tools)
+  - [ViroBLAST](#viroblast)
+  - [SynViso](#synviso)
+  - [JBrowse2](#jbrowse2)
 - [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+- [Additional Sections (Optional)](#additional-sections-optional)
+  - [Screenshots](#screenshots)
+  - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
+  - [Support](#support)
 
 ## Features
 
@@ -31,30 +40,32 @@
 
 ## Integrated Tools
 
+GnomDB integrates several bioinformatics tools to enhance its functionality and provide comprehensive genomic analysis capabilities.
+
 ### ViroBLAST
 
 ViroBLAST is a specialized version of the BLAST tool optimized for viral genomes. It allows for rapid and accurate sequence alignment against extensive viral databases.
 
 - **Launch ViroBLAST:** Accessible from the Tools section in the dashboard.
-- **Documentation:** [ViroBLAST Documentation](https://www.genomdb.org/docs/viroblast)
+- **Documentation:** [ViroBLAST Documentation](https://www.gnomdb.org/docs/viroblast)
 
 ### SynViso
 
 SynViso enables visualization of syntenic regions and genomic rearrangements, facilitating comparative genomics studies across different species.
 
 - **Launch SynViso:** Accessible from the Tools section in the dashboard.
-- **Documentation:** [SynViso Documentation](https://www.genomdb.org/docs/synviso)
+- **Documentation:** [SynViso Documentation](https://www.gnomdb.org/docs/synviso)
 
 ### JBrowse2
 
 JBrowse2 is an interactive genome browser that provides high-resolution visualization of genomic data, supporting features like zooming, panning, and track customization.
 
 - **Launch JBrowse2:** Accessible from the Tools section in the dashboard.
-- **Documentation:** [JBrowse2 Documentation](https://www.genomdb.org/docs/jbrowse2)
+- **Documentation:** [JBrowse2 Documentation](https://www.gnomdb.org/docs/jbrowse2)
 
 ## Installation
 
-Follow these steps to set up GenomDB locally:
+Follow these steps to set up GnomDB locally:
 
 ### Prerequisites
 
@@ -69,5 +80,5 @@ Follow these steps to set up GenomDB locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/genomdb/genomdb.git
-   cd genomdb
+   git clone https://github.com/gnomdb/gnomdb.git
+   cd gnomdb
